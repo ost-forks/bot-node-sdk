@@ -20,7 +20,7 @@
     "prepare": "husky install",
     "dev": "npm run clean & cross-env NODE_ENV=dev rollup -c rollup.config.js -w",
     "build": "npm run clean &cross-env NODE_ENV=production rollup -c rollup.config.js",
-    "lint": "npx eslint \"./**/*.{js,ts}\" --fix",
+    "lint": "eslint \"./**/*.{js,ts}\" --fix",
     "format": "prettier --write ./src",
     "test": "jest --config jest.config.json",
     "example": "cd example && npm run dev",
