@@ -30,4 +30,5 @@ export default class WebsocketClient extends EventEmitter {
     this.session.closeSession();
   }
 }
-let a;
+const a = 1;
+a = 1;
